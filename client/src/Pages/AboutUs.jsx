@@ -117,7 +117,7 @@ const AboutUs = () => {
                   {feature.icon}
                 </div>
                 <h3 className="text-lg font-bold mb-2" style={{ color: theme.textColor }}>{feature.title}</h3>
-                <p className="text-sm" style={{ color: theme.accentTextColor }}>{feature.description}</p>
+                <p className="text-sm " style={{ color: theme.accentTextColor }}>{feature.description}</p>
               </div>
             ))}
           </div>
@@ -132,7 +132,7 @@ const AboutUs = () => {
               <h2 className="text-2xl font-bold mb-4" style={{ color: theme.textColor }}>
                 Our Story
               </h2>
-              <div className="space-y-4 text-sm" style={{ color: theme.accentTextColor }}>
+              <div className="space-y-4 text-justify text-sm" style={{ color: theme.accentTextColor }}>
                 <p>
                   Founded 7 years ago, BunnyTots International Preschool began with a simple mission: to create a nurturing space where children could develop a lifelong love for learning.
                 </p>

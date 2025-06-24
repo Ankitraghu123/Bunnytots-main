@@ -379,7 +379,7 @@ const ParentSpeak = () => {
             Parent <span className="text-[#E91E63]">Testimonials</span>
           </h1>
              
-          <div className="w-20 h-1 mx-auto mb-6" style={{ backgroundColor: theme.primaryColor }}></div>
+          <div className="w-20  h-1 mx-auto mb-6" style={{ backgroundColor: theme.primaryColor }}></div>
           <p className="text-xl max-w-2xl mx-auto" style={{ color: theme.accentTextColor }}>
             Hear what parents say about their experience with us
           </p>
@@ -424,7 +424,7 @@ const ParentSpeak = () => {
                 {renderStars(testimonials[currentIndex].rating)}
                 
                 {/* Quote */}
-                <blockquote className="my-6 text-lg md:text-xl relative">
+                <blockquote className="my-6 text-lg text-justify md:text-xl relative">
                   <p style={{ color: theme.textColor }}>
                     {testimonials[currentIndex].quote}
                   </p>
