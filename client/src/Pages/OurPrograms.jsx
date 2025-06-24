@@ -81,7 +81,7 @@ const OurPrograms = () => {
       },
     },
     {
-      title: "Bunny Junior",
+      title: "Bunny Junior (KG1)",
       age: "4 to 5 years",
       shortDescription:
         "Foundation for formal learning with activities in literacy, numeracy, spoken English, motor and social-emotional skills through joyful discovery",
@@ -279,11 +279,11 @@ const OurPrograms = () => {
 
           {/* Program Details */}
           <div className='bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 mb-8'>
-            <div className='relative h-64 md:h-96 overflow-hidden'>
+            <div className='relative  overflow-hidden'>
               <img
                 src={programs[activeTab].image}
                 alt={`${programs[activeTab].title} program`}
-                className='w-full h-full object-bottom'
+                className='w-full h-[600px]'
               />
               <div className='absolute inset-0 bg-gradient-to-t from-black/40 to-transparent'></div>
               <div className='absolute bottom-0 left-0 p-6 text-white'>

@@ -43,16 +43,17 @@ In India our Curriculum and syllabus is aligned with  CBSE pattern`
 `
     },
     {
-      question: "What should my child bring to school each day?",
-      answer: `- A school bag with books and notebooks (as per schedule) A change of clothes
-- Water bottle
-- Lunch box
- - Diapers/pull-ups if required Please label all items with your child's name.
+  question: "What should my child bring to school every day?",
+  answer: `- A school bag with books and notebooks (as per schedule) A Change of Clothes
+  -Water bottle
+  -Lunch box
+  -Diapers/pull-ups if required
 
+  -Please label all items with your child's name.
 
-Note: we don't allow expensive articles in the school premises, for example: jewellery(real or artificial), mobile phones, toys, make-up items, money etc. `
+Note: We don't allow expensive articles in the school premises. For example: jewellery (real or artificial), mobile phones, toys, make-up items, money, etc.`
+},
 
-    },
     {
       question: "How do you handle health and illness?",
       answer: "If your child shows signs of illness (fever, cold, diarrhea, etc.), we request that you keep them home. In case of illness during school hours, we will notify parents immediately "

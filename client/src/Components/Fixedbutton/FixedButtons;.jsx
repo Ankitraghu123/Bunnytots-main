@@ -20,7 +20,7 @@ const FixedButtons = () => {
         to='/admission-form'
         className='bg-[#00008b] text-white px-2 py-2 rounded-lg shadow-md hover:bg-blue-950 transition'
       >
-        Enrol Your Child
+        Enroll Your Child
       </NavLink>
       <NavLink
         to='/franchise-create'

@@ -199,34 +199,29 @@ const Footer = () => {
         <div className='relative bottom-10 '>
           <div className=' items-center'>
             <img src={logo} alt='BunnyTots Logo' className='h-20 w-auto ' />
-            <p className='text-gray-300 leading-relaxed'>
+            <p className='text-gray-300 text-sm text-justify leading-relaxed'>
               BunnyTots is internationally recognised as a leading early
               childhood education brand, dedicated to nurturing young minds,
               with a commitment to excellence and innovation, BunnyTots provides
               a nurturing environment that fosters holistic development, laying
-              a strong foundation for lifelong learning{" "}
+              a strong foundation for lifelong learning
             </p>
             <div className='flex space-x-4  relative top-5'>
               <a
-                href='#'
+                href='https://www.facebook.com/bunny.tots.94?mibextid=b06tZ0'
                 className='text-ray-300 hover:text-[#E91E63] transition-colors'
               >
                 <FaFacebook className='h-6 w-6' />
               </a>
+            
               <a
-                href='#'
-                className='text-gray-300 hover:text-[#E91E63] transition-colors'
-              >
-                <FaTwitter className='h-6 w-6' />
-              </a>
-              <a
-                href='#'
+                href='https://instagram.com/bunnytots_official?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D'
                 className='text-gray-300 hover:text-[#E91E63] transition-colors'
               >
                 <FaInstagram className='h-6 w-6' />
               </a>
               <a
-                href='#'
+                href='https://youtube.com/@bunnytots-pe9be?si=9nyGoyKoLUQsj8ce'
                 className='text-gray-300 hover:text-[#E91E63] transition-colors'
               >
                 <FaYoutube className='h-6 w-6' />
@@ -328,7 +323,7 @@ const Footer = () => {
                 className='text-gray-300 hover:text-[#E91E63] transition-colors flex items-start'
               >
                 <span className='mr-2 text-[#E91E63]'>•</span>
-                <span>Bunny Junior</span>
+                <span>Bunny Junior(KG1)</span>
               </a>
             </li>
             <li>
@@ -370,7 +365,7 @@ const Footer = () => {
                 href='mailto:info@eurokids.example.com'
                 className='text-gray-300 hover:text-[#E91E63] transition-colors'
               >
-                info@BunnyTots.example.com
+              info@bunnytotsindia.com
               </a>
             </div>
             <div className='flex items-start'>

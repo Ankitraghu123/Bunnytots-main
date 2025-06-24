@@ -273,7 +273,7 @@ const FranchiseCreate = () => {
                           onChange={handleChange}
                           className='w-full px-4 py-2 border rounded-lg focus:ring-2 focus:outline-none'
                           style={{ borderColor: theme.accentTextColor }}
-                          placeholder='Parent/Guardian name'
+                          placeholder='Your Full Name'
                           required
                         />
                       </div>
@@ -291,7 +291,7 @@ const FranchiseCreate = () => {
                             onChange={handleChange}
                             className='w-full pl-10 px-4 py-2 border rounded-lg focus:ring-2 focus:outline-none'
                             style={{ borderColor: theme.accentTextColor }}
-                            placeholder='your@email.com'
+                            placeholder='franchise@bunnytotsindia.com'
                             required
                           />
                         </div>
