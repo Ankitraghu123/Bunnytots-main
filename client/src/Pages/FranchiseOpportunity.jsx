@@ -152,9 +152,12 @@ const FranchiseOpportunity = () => {
                       d='M5 13l4 4L19 7'
                     />
                   </svg>
-                  <span className='text-gray-700'>
+                  {/* <span className='text-gray-700'>
                     An investment of (15-20 lakh) offer price 5-10 lakh only
-                  </span>
+                  </span> */}
+                     <span className='text-gray-700'>
+  An investment of <del>15–20 Lakh</del> — Offer Price: 5–10 Lakh Only
+</span>
                 </li>
                 <li className='flex items-start'>
                   <svg

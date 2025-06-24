@@ -137,7 +137,7 @@ const PreschoolPrograms = () => {
       icon: "🍼",
     },
     {
-      title: "Bunny Junior",
+      title: "Bunny Junior(KG1)",
       age: "4 to 5 years",
       description:
         "Foundation for formal learning with activities in literacy, numeracy, spoken English, motor and social-emotional skills through joyful discovery.",

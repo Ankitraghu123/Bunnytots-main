@@ -110,7 +110,7 @@ const ContactUs = () => {
                       value={formData.email}
                       onChange={handleChange}
                       className='w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#EE2341] focus:border-transparent'
-                      placeholder='your@email.com'
+                      placeholder='contact@bunnytotsindia.com'
                       required
                     />
                   </div>
@@ -240,14 +240,14 @@ const ContactUs = () => {
                     <h4 className='text-lg font-semibold text-gray-900'>
                       Email
                     </h4>
-                    <p className='text-gray-600'>info@bunnytots.example.com</p>
-                    <p className='text-gray-600'>
+                    <p className='text-gray-600'>contact@bunnytotsindia.comgut</p>
+                    {/* <p className='text-gray-600'>
                       support@bunnytots.example.com
-                    </p>
+                    </p> */}
                   </div>
                 </div>
 
-                <div className='flex items-start'>
+                {/* <div className='flex items-start'>
                   <div className='flex-shrink-0 bg-[#EE2341]/10 p-3 rounded-full text-[#EE2341] mr-4'>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
@@ -270,7 +270,7 @@ const ContactUs = () => {
                       />
                     </svg>
                   </div>
-                  <div>
+                  {/* <div>
                     <h4 className='text-lg font-semibold text-gray-900'>
                       Head Office
                     </h4>
@@ -279,9 +279,9 @@ const ContactUs = () => {
                       Heaven's Life, Katara Hills .
                     </p>
                     {/* <p className="text-gray-600">123 Education Street, Knowledge City</p> */}
-                    <p className='text-gray-600'>Bhopal 462043</p>
-                  </div>
-                </div>
+                    {/* <p className='text-gray-600'>Bhopal 462043</p> */}
+                  {/* </div> */}
+                {/* </div>  */}
               </div>
             </div>
 

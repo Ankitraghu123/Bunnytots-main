@@ -112,7 +112,7 @@ const SyllabusForm = () => {
               <option value=''>Select Class</option>
               <option value='Nursery'>Bunny Toddlers</option>
               <option value='LKG'>Bunny Nursery</option>
-              <option value='UKG'>Bunny Junior</option>
+              <option value='UKG'>Bunny Junior(KG1)</option>
               <option value='1'>Bunny Senior</option>
               <option value='I'>I</option>
               <option value='II'>II</option>

@@ -311,7 +311,7 @@ const Careers = () => {
                     value={formData.email}
                     onChange={handleChange}
                     className='w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#E91E63]'
-                    placeholder='Your email'
+                    placeholder='careers@bunnytotsindia.com'
                     required
                   />
                 </div>
@@ -476,7 +476,7 @@ const Careers = () => {
               For any queries, reach out to our HR team:
             </p>
             <p className='text-lg text-[#E91E63] font-medium'>
-              Email: careers@bunnytots.com
+              Email: careers@bunnytotsindia.com
             </p>
           </div>
         </div>

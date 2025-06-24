@@ -162,37 +162,7 @@ const BunnyWoodlandProducts = () => {
       ]
     },
   
-   {
-    id: 'IMG-1',
-    name: "Stylish Office Chair",
-    image: img5,
-      description: "",
-      features: [ ],
-      specifications: [
 
-      ],
-  },
-  {
-    id: 'IMG-2',
-    name: "Modern Sofa",
-    image: img6,
-      description: "",
-      features: [ ],
-      specifications: [
-
-      ],
-  },
-  {
-    id: 'IMG-3',
-    name: "Elegant Round Table",
-    image: img7,
-      
-      description: "",
-      features: [ ],
-      specifications: [
-
-      ],
-  }
   ];
 
 

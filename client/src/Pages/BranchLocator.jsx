@@ -4,7 +4,7 @@ import locotion from "../assets/locotion.png";
 
 import slider1 from "../assets/slider/1000038559.png";
 import south from "../assets/slider/1000038560.png";
-import northan from "../assets/slider/northan.png";
+import northan from "../assets/slider/northan2.png";
 import { useDispatch } from "react-redux";
 import toast from "react-hot-toast";
 import { ShowLoading, HideLoading } from "../redux/alertsSlice";
@@ -157,77 +157,7 @@ const BranchLocator = () => {
                 />
               </div>
 
-              {/* Form - will appear second on mobile */}
-              {/* <form className='md:w-1/2 grid grid-cols-1 md:grid-cols-2 gap-6'>
-                <div>
-                  <label
-                    htmlFor='fullname'
-                    className='block mb-2 text-sm font-semibold text-gray-700'
-                  >
-                    Full Name
-                  </label>
-                  <input
-                    id='fullname'
-                    type='text'
-                    placeholder='Your Name'
-                    className='w-full p-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#E91E63] outline-none'
-                  />
-                </div>
-
-                <div>
-                  <label
-                    htmlFor='mobile'
-                    className='block mb-2 text-sm font-semibold text-gray-700'
-                  >
-                    Mobile Number
-                  </label>
-                  <input
-                    id='mobile'
-                    type='tel'
-                    placeholder='8435470955'
-                    className='w-full p-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#E91E63] outline-none'
-                  />
-                </div>
-
-                <div className='md:col-span-2'>
-                  <label
-                    htmlFor='location'
-                    className='block mb-2 text-sm font-semibold text-gray-700'
-                  >
-                    Your Area / Location
-                  </label>
-                  <input
-                    id='location'
-                    type='text'
-                    placeholder='Example: Malviya Nagar, Jaipur'
-                    className='w-full p-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#E91E63] outline-none'
-                  />
-                </div>
-
-                <div className='md:col-span-2'>
-                  <label
-                    htmlFor='message'
-                    className='block mb-2 text-sm font-semibold text-gray-700'
-                  >
-                    Message (Optional)
-                  </label>
-                  <textarea
-                    id='message'
-                    rows='3'
-                    placeholder='Any note or question?'
-                    className='w-full p-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#E91E63] outline-none'
-                  ></textarea>
-                </div>
-
-                <div className='md:col-span-2 text-center'>
-                  <button
-                    type='submit'
-                    className='bg-[#E91E63] text-white px-6 py-3 rounded-lg font-semibold hover:bg-pink-700 transition'
-                  >
-                    Submit
-                  </button>
-                </div>
-              </form> */}
+          
 
               <form
                 className='md:w-1/2 grid grid-cols-1 md:grid-cols-2 gap-6'
@@ -324,7 +254,7 @@ const BranchLocator = () => {
                   <img
                     src={branch.image}
                     alt={branch.name}
-                    className='w-full h-full object-cover  transition-transform duration-500 hover:scale-105'
+                    className='w-full h-full object-center  transition-transform duration-500 hover:scale-105'
                   />
                 </div>
                 <div className='p-6'>

@@ -6,58 +6,61 @@ const Gallery = () => {
     const galleryImages = [
         {
             id: 1,
-            src: "https://images.unsplash.com/photo-1604881991720-f91add269bed?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            src: "https://scontent.fbho3-5.fna.fbcdn.net/v/t39.30808-6/480708495_1038173468331156_3826166312289154721_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=adj5hWF1tUEQ7kNvwGC0LsC&_nc_oc=AdlL6XMrLQGa33t7k2o33SfjlBBvAa3Ws8YH5rPdo4IcqKKsREijfaBL7yn5ChPS87Q&_nc_zt=23&_nc_ht=scontent.fbho3-5.fna&_nc_gid=FElNmwUbHGAzURYu6BZV-Q&oh=00_AfOsYI_CUGvU0XfAC0zy3nz2kMHI43tk2vGUwGyAStGTVA&oe=685F017F",
             alt: "Children playing in classroom",
             category: "Class Activities"
         },
         {
             id: 2,
-            src: "https://images.unsplash.com/photo-1541692641319-981cc79ee10a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            src: "https://scontent.fbho3-2.fna.fbcdn.net/v/t39.30808-6/481256682_1038172394997930_3227919130437684998_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=cF_AxBr9hgsQ7kNvwHgeRet&_nc_oc=Adn-i4CMSONA02oaYzthf7trrWBUvjLWAWi2QTT86uwkzfM1zeM_EPQyp9Gv4UJeWBM&_nc_zt=23&_nc_ht=scontent.fbho3-2.fna&_nc_gid=bfdi9fDz0osbIXmfS5BPMw&oh=00_AfOoPyyjzo6HZT_M-4MwG9BpQ6p6bNLA_tXrBptS4T2pOA&oe=685EDC7C",
             alt: "Art class",
             category: "Creative Arts"
         },
         {
             id: 3,
-            src: "https://images.unsplash.com/photo-1588072432836-e10032774350?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            src: "https://scontent.fbho3-4.fna.fbcdn.net/v/t39.30808-6/481168707_1038173401664496_8287176664494290609_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=gQ_iTZFhpPIQ7kNvwGsHGL9&_nc_oc=AdlEdZts6mc5RFcMFMWb7NddnsYCrshj7bvT28Yf_rf54CQryDoIeq17xv6apIXqD3w&_nc_zt=23&_nc_ht=scontent.fbho3-4.fna&_nc_gid=QK_3OjsKRUsYmPfKoZYNsQ&oh=00_AfNR9sHbcMrLFdwHgO5CcVfG3DofnfSOi8eS8qn09a87Jg&oe=685EF786",
             alt: "Outdoor play",
             category: "Outdoor Learning"
         },
         {
             id: 4,
-            src: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            src: "https://scontent.fbho3-4.fna.fbcdn.net/v/t39.30808-6/480693175_1037560835059086_5192805498507853564_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=AAlH9SAF1yYQ7kNvwGKcem5&_nc_oc=AdmIZ-35IXL1qkGLktNwrpinPbW8MaP4mOtCrJIfP82Ls3k_OFQXIkGJxWAU2p2U_JA&_nc_zt=23&_nc_ht=scontent.fbho3-4.fna&_nc_gid=8kswo6X033gukbTs_OO-LA&oh=00_AfP_mBJfKfliihAjUDau_ozMvbYRq-psPNd2nZbezuMHKw&oe=685F0723",
             alt: "Story time",
             category: "Storytelling"
         },
         {
             id: 5,
-            src: "https://images.unsplash.com/photo-1541178735493-479c1a27ed24?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            src: "https://scontent.fbho3-1.fna.fbcdn.net/v/t39.30808-6/481259860_1037560841725752_1658660790101127705_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=h5gQ1iETQVMQ7kNvwEaN5XS&_nc_oc=AdnmH7wkpGI1foq6MbrEk6iZU1e6p7w1phBpoHSvLDlMxf0OOU2Pl5ihbicfdRzZiJA&_nc_zt=23&_nc_ht=scontent.fbho3-1.fna&_nc_gid=dm5Kz64dj64-k_tgerf_OA&oh=00_AfOBB4Ti6WK8hXrWbYfml-FeGGirpZoQRsxZaIqcik-TZA&oe=685EFF9F",
             alt: "Science experiment",
             category: "STEM Learning"
         },
         {
             id: 6,
-            src: "https://images.unsplash.com/photo-1588075592446-265fd1e6e76f?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            src: "https://scontent.fbho3-5.fna.fbcdn.net/v/t39.30808-6/480695835_1038172381664598_498833939751543738_n.jpg?stp=c342.0.1365.1365a_dst-jpg_s206x206_tt6&_nc_cat=111&ccb=1-7&_nc_sid=714c7a&_nc_ohc=7W6OQYU1H0cQ7kNvwExb9Xg&_nc_oc=AdnGuL-_MibHP-8q-QULvk997nxuvA3kygQJTm841dKrBXGW4mCl0evHskOCJbGMHRc&_nc_zt=23&_nc_ht=scontent.fbho3-5.fna&_nc_gid=JMbkuujlAhS24JIRZjHRmQ&oh=00_AfPj7GhnWeDdsL5AGWlvJQbIOomoakdHRZlz7ZQtwpWD8g&oe=685EE90F",
             alt: "Music class",
             category: "Music & Movement"
         },
+      
         {
-            id: 7,
-            src: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            alt: "Story time",
-            category: "Storytelling"
-        },
-        {
-            id: 8,
-            src: "https://images.unsplash.com/photo-1541178735493-479c1a27ed24?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            alt: "Science experiment",
-            category: "STEM Learning"
-        },
-        {
-            id: 9,
-            src: "https://images.unsplash.com/photo-1588075592446-265fd1e6e76f?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            alt: "Music class",
-            category: "Music & Movement"
-        }
+    id: 7,
+    src: "https://scontent.fbho3-2.fna.fbcdn.net/v/t39.30808-6/480693727_1037576498390853_2834532372459502731_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=8M0tAAwpibQQ7kNvwFg-10S&_nc_oc=Adn0-P4p9W-Dp-IjLc_VA0v7l90nK3rSv941ZPjlpCEWfYhiQDtNnIacafbE_m2-jI0&_nc_zt=23&_nc_ht=scontent.fbho3-2.fna&_nc_gid=0gpgioTLg2D6o8rEFLCbRw&oh=00_AfPBj4KgsuxLm_rOq2JUGf9522PTlCkHWfL7ZS3NuWvITQ&oe=685EFD01",
+    alt: "Toddlers playing with water toys",
+    category: "Sensory Play"
+},
+{
+    id:8,
+    src: "https://scontent.fbho3-2.fna.fbcdn.net/v/t39.30808-6/481075578_1038172278331275_4392378499825543040_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=9YspZSvz9w8Q7kNvwHIYmq7&_nc_oc=AdlM1WTCC09s-B3egCbu30urvQDL1C4pWS6t3ZiS4vG1adJnMytBkOUmCZOGbgvK9qo&_nc_zt=23&_nc_ht=scontent.fbho3-2.fna&_nc_gid=lFi8Euzg7z3bbawTssAFiw&oh=00_AfNdaY8ZzvKhfoQk77QeaJkgrQc9g6FlJBKIqwfF-fOa4Q&oe=685EF9A0",
+    alt: "Preschoolers doing yoga poses",
+    category: "Physical Development"
+},
+{
+    id: 9,
+    src: "https://scontent.fjlr2-1.fna.fbcdn.net/v/t39.30808-6/480685856_1038172288331274_4721845703052119540_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=A-JBdnw_YH8Q7kNvwH8kusx&_nc_oc=AdlTpsla796bX9nfuDl3UfN2B_rFT3f7ww6NYSWD9t5bANs2R6-VSCG92fBVVxhtdrj7nx5VkuYM7UfcG7bQDivo&_nc_zt=23&_nc_ht=scontent.fjlr2-1.fna&_nc_gid=85DvPNF9hswMvbbFJf7uAA&oh=00_AfNifeczVdRK4d0FvHW4di96d-PSGeHCKHtIZysuHJeakg&oe=685EDA13",
+    alt: "Children gardening and planting seeds",
+    category: "Nature Learning"
+}
+
+
 
     ];
 
@@ -93,6 +96,21 @@ const Gallery = () => {
                         <p className="text-lg text-gray-600 max-w-3xl mx-auto">
                             Capturing the joy, learning and growth of our little stars
                         </p>
+                    </div>
+
+                    <div className='mb-4 text-center'>
+                        <p>
+    📸 <strong>Send us a friend request on our{" "}
+    <a
+      href="https://facebook.com/your-page-link"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-primary"
+    >
+      Facebook account
+    </a>{" "}
+    and download required pictures.</strong>
+  </p>
                     </div>
 
                     {/* Gallery grid */}
