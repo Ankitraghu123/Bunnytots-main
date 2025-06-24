@@ -47,7 +47,7 @@ const VisionMission = () => {
                   </div>
                   <h3 className="text-2xl font-bold text-[#00008B]">Our Vision</h3>
                 </div>
-                <p className="text-gray-600 leading-relaxed">
+                <p className="text-gray-600 text-justify leading-relaxed">
                   "To create a nurturing and stimulating environment that fosters the holistic development of young minds—cultivating intellectual curiosity, emotional resilience, social skills, and physical well-being. We aim to lay a strong foundation for lifelong learning, creativity, and compassionate citizenship."
                 </p>
               </div>
@@ -68,7 +68,7 @@ const VisionMission = () => {
                   </div>
                   <h3 className="text-2xl font-bold text-[#00008B]">Our Mission</h3>
                 </div>
-                <p className="text-gray-600 leading-relaxed">
+                <p className="text-gray-600 text-justify leading-relaxed">
 "Our mission is to provide a nurturing and stimulating environment where young minds flourish. We aim to foster curiosity, creativity, and a lifelong love for learning through play-based, experiential education. By focusing on social, emotional, cognitive, and physical development, we prepare children to become confident, compassionate, and independent individuals. We are committed to partnering with families and the community to create a strong foundation for lifelong success."                </p>
               </div>
             </div>

@@ -231,7 +231,7 @@ const TabsComponent = () => {
                 Brain Development Progression
               </h2>
               <div className='bg-[#FEEBEF] p-4 rounded-lg'>
-                <p className='text-gray-700 font-medium'>
+                <p className='text-gray-700 text-justify font-medium'>
                   Scientific studies of children have shown that, between birth
                   and the age of six, the brain quadruples in size and reaches
                   90% of its adult size.

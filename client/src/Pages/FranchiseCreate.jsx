@@ -224,7 +224,7 @@ const FranchiseCreate = () => {
         <div className='flex flex-col md:flex-row'>
           {/* Text Section - Full width on mobile, centered on desktop */}
           <div className='md:w-1/2 w-full p-2 relative   top-[-40px] '>
-            <h2 className='text-[20px] md:text-3xl  font-bold top-28  mb:top-[-10px] md:relative  text-[#00008B]'>
+            <h2 className='text-[20px]  md:text-3xl  font-bold top-28  mb:top-[-10px] md:relative  text-[#00008B]'>
               Establish a partnership with a premier
               <span className='text-[#E91E63]'>
                 {" "}
@@ -383,7 +383,7 @@ const FranchiseCreate = () => {
         </div>
       </div>
       <div className='max-w-7xl mx-auto p-6 bg-white  shadow-md'>
-        <h1 className='text-3xl font-bold text-center mb-8 text-[#00008B] '>
+        <h1 className='text-3xl font-bold  text-center mb-8 text-[#00008B] '>
           Everything You Need to{" "}
           <span className='text-[#E91E63]'>Establish a Successful</span>{" "}
           Preschool Franchise
@@ -421,7 +421,7 @@ const FranchiseCreate = () => {
           <div className='bg-[#EFF6FF] p-8 rounded-lg text-center'>
             {/* <FaHistory className="text-4xl text-[#E91E63] mb-2 mx-auto" /> */}
             <p className='text-xl font-bold text-[#E91E63]'>7+ years</p>
-            <p className='text-gray-600'>A proven track record spanning </p>
+            <p className='  text-gray-600'>A proven track record spanning  7+ years</p>
           </div>
 
           <div className='bg-[#EFF6FF] p-4 rounded-lg text-center flex flex-col items-center'>
