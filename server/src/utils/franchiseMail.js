@@ -15,6 +15,7 @@ const sendMail = async (userData) => {
     // from: '"Sourabh Badgaiya" <sourabhbadgaiya2@gmail.com>',
     from: `"${userData.name}" <${userData.email}>`,
     to: config.EMAIL_TO,
+    cc: config.EMAIL_CC_FRANCHISE,
     subject: userData.subject,
     text: `
         Dear Sir/Madam,

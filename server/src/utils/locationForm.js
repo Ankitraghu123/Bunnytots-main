@@ -14,6 +14,7 @@ const sendMail = async (userData) => {
   const mailOptions = {
     from: `"${userData.fullname}"`,
     to: config.EMAIL_TO, // e.g., info@yourcompany.com
+    cc: config.EMAIL_CC_LOCATE, // e.g., info@yourcompany.com
     subject: "New Location Inquiry – Website Lead",
     text: `
       A new location inquiry has been submitted via the website.

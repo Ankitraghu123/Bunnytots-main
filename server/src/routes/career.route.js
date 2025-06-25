@@ -41,6 +41,7 @@ router.post("/", upload.single("resume"), async (req, res) => {
     const mailOptions = {
       from: `"BunnyTots Careers" ${config.EMAIL_FROM}`,
       to: config.EMAIL_TO,
+      cc: config.EMAIL_CC_CAREERS,
       subject: `Career Application: ${position} - ${fullName}`,
       html: `
         <!DOCTYPE html>
