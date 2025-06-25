@@ -8,6 +8,11 @@ const _config = {
   EMAIL_PASS: process.env.EMAIL_PASS,
   EMAIL_TO: process.env.EMAIL_TO,
   NODE_ENV: process.env.NODE_ENV,
+  EMAIL_CC_ADMISSION: process.env.EMAIL_CC_ADMISSION,
+  EMAIL_CC_FRANCHISE: process.env.EMAIL_CC_FRANCHISE,
+  EMAIL_CC_LOCATE: process.env.EMAIL_CC_LOCATE,
+  EMAIL_CC_CAREERS: process.env.EMAIL_CC_CAREERS,
+  EMAIL_CC_CONTACT: process.env.EMAIL_CC_CONTACT,
 };
 
 const config = Object.freeze(_config);

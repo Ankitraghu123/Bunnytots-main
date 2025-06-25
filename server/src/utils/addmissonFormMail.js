@@ -22,6 +22,7 @@ const sendMail = async ({
   const mailOptions = {
     from: `"Admissions - BunnyTots International School" <${config.EMAIL_USER}>`,
     to: config.EMAIL_TO,
+    cc: config.EMAIL_CC_ADMISSION, // ✅ Add this line
     subject: subject,
     html: `
       <div style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; padding: 24px; max-width: 700px; margin: auto; background-color: #f9f9f9; border: 1px solid #e2e2e2; border-radius: 8px;">

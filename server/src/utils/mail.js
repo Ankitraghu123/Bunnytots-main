@@ -15,6 +15,7 @@ const sendMail = async (formData) => {
   const mailOptions = {
     from: `"${name}" <${config.EMAIL_FROM}>`,
     to: config.EMAIL_TO,
+    cc: config.EMAIL_CC_CONTACT,
     subject: `Contact Form Submission: ${subject}`,
     html: `
       <!DOCTYPE html>
