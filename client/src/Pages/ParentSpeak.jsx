@@ -422,7 +422,7 @@ const ParentSpeak = () => {
               <div className="text-center md:text-left">
                 {/* Rating */}
                 {renderStars(testimonials[currentIndex].rating)}
-                
+                 {/* hsdhhddwhd */}
                 {/* Quote */}
                 <blockquote className="my-6 text-lg text-justify md:text-xl relative">
                   <p style={{ color: theme.textColor }}>
